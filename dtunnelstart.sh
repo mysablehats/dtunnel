@@ -1,10 +1,7 @@
 #!/bin/bash
 echo "Welcome to Dtunnel"
 echo "Running Tunnel to ROS machine. Keep this open"
-ROSDEFAULTMACHINE="10.188.18.74"
-DEFAULTDOWNPORT="2222"
-DEFAULTUPPORT="19996"
-DEFAULTUSER="frederico"
+source dtsetup.sh
 
 #if [ -z "$1" ];
 #then
