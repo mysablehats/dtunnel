@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "Welcome to Dtunnel"
 echo "Running Tunnel to ROS machine. Keep this open"
-source dtsetup.sh
+source envvarconf.sh
 
 #if [ -z "$1" ];
 #then

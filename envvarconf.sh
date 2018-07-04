@@ -4,8 +4,8 @@
 echo "Loading connection preferences"
 #IP of the machine you are going to connect to
 ROSDEFAULTMACHINE="10.188.18.74"
-#Port of the machine you expect sshd to be working on --> do cat /etc/ssh/sshd_config and look for Port, if you are in doubt
-DEFAULTDOWNPORT="2222"
+#Port of this machine you expect sshd to be working on --> do cat /etc/ssh/sshd_config and look for Port, if you are in doubt
+DEFAULTDOWNPORT="22"
 #User on the remote machine we will use to connect our tunnel
 DEFAULTUSER="frederico"
 #Port this pc will accept connections from. This port must be unique to connect to this pc!
